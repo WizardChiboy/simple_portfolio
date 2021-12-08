@@ -22,12 +22,13 @@
     <nav>
       <div class="nav-links" id="nav-toggle">
         <ul>
-          <a href=""> <li>projects</li></a>
-          <a href=""> <li>gallery</li></a>
-          <a href=""> <li>academics</li></a>
-          <a href=""> <li>cv</li></a>
+          <a href="#home"> <li>Home</li></a>
+          <a href="#projects"> <li>Projects</li></a>
+          <a href="#gallery"> <li>Gallery</li></a>
+          <a href="#academics"> <li>Academics</li></a>
+          <a href="#portfolio"> <li>Portfolio</li></a>
           <a href="javascript:void(0);" class="icon" onclick="toggle()">
-            <i class="fa fa-bars">click</i>
+            <i class="fa fa-bars"></i>
           </a>
         </ul>
       </div>
@@ -35,7 +36,7 @@
 
     <!-- introduction section -->
 
-    <div class="intro">
+    <div id="home" class="intro">
       <h2>A simple website that tells more about me...</h2>
       <p>
         My name is Emeanua Martins Sopuruchi and am an enthusiast programmer who
@@ -46,27 +47,27 @@
 
     <!-- blog section -->
 
-    <div class="blog-section">
+    <div id="academics" class="blog-section">
       <div class="blog-section-content">
         <h6>Academic Background</h6>
-        <h3>
+        <p>
           Am a student of a Nigerian University named as Micheal Okpara
           University of Agriculture Umudike. Am currently in 300 level out of
           400 in the department of Computer Science for my Bsc.
-        </h3>
+        </p>
       </div>
       <div class="blog-section-image">
         <img src="./images/1.jpg" alt="" />
       </div>
     </div>
 
-    <div class="blog-section">
+    <div id="portfolio" class="blog-section">
       <div class="blog-section-content">
         <h6>Portfolio</h6>
-        <h3>
+        <p>
           I have been a devoted programmer and have been able to achieve some
           things which includes
-        </h3>
+        </p>
         <ul>
           <li>being proficient in html</li>
           <li>proficient in css</li>
@@ -82,7 +83,7 @@
     </div>
 
     <!-- builds -->
-    <div class="build">
+    <div id="projects" class="build">
       <div class="build-header">Some of My Projects</div>
 
       <div class="build-gallery">
@@ -114,8 +115,8 @@
     </div>
 
     <!-- my photo -->
-    <div class="photos">
-      <div class="photo-header">My photos</div>
+    <div id="gallery" class="photos">
+      <div class="photo-header">Photo Gallery</div>
 
       <div class="photo-gallery">
         <div class="content">
@@ -132,11 +133,15 @@
         </div>
         <div class="content">
           <img src="./images/ella.jpg" alt="" />
-          myself and friend
+          myself and Ella
+        </div>
+        <div class="content">
+          <img src="./images/prince.png" alt="" />
+          myself and Prince
         </div>
         <div class="content">
           <img src="./images/chinwe.jpg" alt="" />
-          myself and friend
+          myself and Chinwe
         </div>
       </div>
     </div>
